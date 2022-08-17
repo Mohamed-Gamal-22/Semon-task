@@ -1,0 +1,361 @@
+@media screen and (max-width: 1000px) {
+  nav label {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .about p {
+    color: #f1f1f1;
+    font-size: 95px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .about p::after {
+    content: "know me more";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .about p::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #20c997;
+    width: 10%;
+    height: 1px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header section h4 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  header section h2 {
+    font-size: 50px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 0;
+  }
+  header section p {
+    font-size: 19px;
+    font-weight: normal;
+  }
+
+  header section button {
+    border: 2px solid #20c997;
+    width: 120px;
+    padding: 14px 18px;
+    border-radius: 60px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .about p {
+    color: #f1f1f1;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .about p::after {
+    content: "know me more";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  .about p::before {
+    content: "";
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #20c997;
+    width: 10%;
+    height: 1px;
+  }
+  /* ////////////////////////////////// */
+  .serv p {
+    color: #f1f1f1;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .serv p::after {
+    content: "know me more";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  .serv p::before {
+    content: "";
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #20c997;
+    width: 10%;
+    height: 1px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .info .container .left {
+    width: 100%;
+  }
+
+  .info .container .left h2 {
+    font-size: 27px;
+  }
+  .info .container .left p {
+    font-size: 16px;
+  }
+
+  .info .container .right {
+    width: 100%;
+  }
+
+  .info .container .right p {
+    padding: 15px 0;
+    font-size: 15px;
+  }
+
+  .info .container .right button {
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 13px 22px;
+    width: 152px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .numbers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* ????? */
+  }
+
+  .numbers .cont {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .service .container .cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    align-items: center;
+  }
+  .service .container .cont {
+    justify-content: space-evenly;
+  }
+
+  .service .container .cont i {
+    margin-top: 2px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .service .container .cont i {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .service .container .cont i {
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .education .container .left,
+  .education .container .right {
+    width: 100%;
+    border: 1px solid #20c997;
+    margin-bottom: 25px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .all .container .links p {
+    font-size: 16px;
+  }
+
+  .port p {
+    color: #f1f1f1;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .port p::after {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sum p {
+    font-size: 80px;
+  }
+  .sum p::after {
+    content: "know me more";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .sum p::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #20c997;
+    width: 10%;
+    height: 1px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .test p {
+    font-size: 80px;
+  }
+
+  .test p::after {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .test p {
+    font-size: 60px;
+  }
+
+  .test p::after {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .client .container {
+    flex-wrap: wrap;
+  }
+  .client .container .cont {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .our .container form input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .our .container {
+    flex-direction: column-reverse;
+  }
+  .our .container .address {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .our .container form {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+}
+/* ////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1000px) {
+  footer .container {
+    flex-wrap: wrap;
+  }
+  footer .container > p {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+  footer .container ul {
+    display: flex;
+    margin: 25px auto;
+  }
+
+  footer .container ul li {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contact {
+    text-align: center;
+    margin-top: 25px;
+    padding: 5%;
+    background-color: #f8f9fa;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    margin: 50px 0 0;
+  }
+
+  .contact p {
+    color: #ccc;
+    font-size: 95px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .contact p::after {
+    content: "Client Speak";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .contact p::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #20c997;
+    width: 10%;
+    height: 1px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .skills .cont {
+    width: 100%;
+  }
+}
